@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CuKar</string>
+    <string-array name="jenis_cuti">
+        <item>-----Pilih Jenis-----</item>
+        <item>Cuti Mendadak</item>
+        <item>Cuti Liburan</item>
+        <item>Cuti Menikah</item>
+    </string-array>
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Activity.DetailCutiUserActivity">
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:background="@drawable/form_space">
+
+        <TextView
+            android:id="@+id/kode_cuti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kode :"
+            android:drawableLeft="@drawable/ic_perm_contact_calendar_black_24dp"
+            android:padding="5dp"
+            android:drawablePadding="10dp"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/detail_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NIK :"
+            android:drawableLeft="@drawable/ic_account_box_black_24dp"
+            android:padding="5dp"
+            android:drawablePadding="10dp"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/detail_tglAwal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tanggal Awal :"
+            android:drawableLeft="@drawable/ic_date_range_black_24dp"
+            android:padding="5dp"
+            android:drawablePadding="10dp"
+            android:layout_margin="5dp" />
+
+        <TextView
+            android:id="@+id/detail_tglAkhir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tanggal Akhir :"
+            android:drawableLeft="@drawable/ic_date_range_black_24dp"
+            android:padding="5dp"
+            android:drawablePadding="10dp"
+            android:layout_margin="5dp" />
+
+        <TextView
+            android:id="@+id/detail_jenis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Jenis Cuti :"
+            android:drawableLeft="@drawable/ic_receipt_black_24dp"
+            android:padding="5dp"
+            android:drawablePadding="10dp"
+            android:layout_margin="5dp" />
+
+        <TextView
+            android:id="@+id/detail_jumlah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Jumlah :"
+            android:drawableLeft="@drawable/ic_create_black_24dp"
+            android:padding="5dp"
+            android:drawablePadding="10dp"
+            android:layout_margin="5dp"
+            android:lineSpacingExtra="20sp"/>
+
+        <TextView
+            android:id="@+id/detail_keterangan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan :"
+            android:drawableLeft="@drawable/ic_contact_mail_black_24dp"
+            android:padding="5dp"
+            android:drawablePadding="10dp"
+            android:layout_margin="5dp" />
+
+        <TextView
+            android:id="@+id/detail_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Status :"
+            android:drawableLeft="@drawable/ic_history_black_24dp"
+            android:padding="5dp"
+            android:drawablePadding="10dp"
+            android:layout_margin="5dp" />
+    </LinearLayout>
+
+</LinearLayout>

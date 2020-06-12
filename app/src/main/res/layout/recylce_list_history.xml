@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:background="@drawable/upload"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="5dp"
+            android:paddingRight="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="0.8">
+
+            <TextView
+                android:id="@+id/id_statuscuti"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:hint="Status Cuti"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/id_listcuti"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:hint="ID Cuti"
+                android:textSize="14sp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/id_ket"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:hint="Keterangan"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/detail_cuti"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="Detail"
+                android:textAllCaps="false"
+                android:textColor="#ffff"
+                android:textStyle="bold"
+                android:background="@drawable/bg_space"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
